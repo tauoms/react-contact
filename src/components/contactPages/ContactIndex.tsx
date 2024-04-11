@@ -19,8 +19,9 @@ const ContactIndex = () => {
             <AddContact />
             <FavoriteContact />
             <GeneralContact />
-            <Footer />
         </div>
+        <Footer />
+
     </div>
   )
 }
