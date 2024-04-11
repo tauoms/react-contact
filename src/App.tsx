@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Header from './components/layout/Header'
+import Footer from './components/layout/Footer'
 
 function App() {
   return (
     <>
-      <div>Hello World</div>
+      <Header title ='React Contact' />
+      <Footer />
     </>
   )
 }
