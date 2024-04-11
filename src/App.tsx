@@ -1,11 +1,9 @@
-import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
+import ContactIndex from './components/contactPages/ContactIndex'
 
 function App() {
   return (
     <>
-      <Header title ='React Contact' />
-      <Footer />
+    <ContactIndex />
     </>
   )
 }

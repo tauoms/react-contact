@@ -11,7 +11,8 @@ const Header: FC<Props> = ({ title }) => {
             <img src={logo} alt="react logo" className='h-10 w-10 mr-4' />
             <h1 className='text-3xl'>{title}</h1>
         </header>
-    )
-}
+    );
+};
+
 
 export default Header;
