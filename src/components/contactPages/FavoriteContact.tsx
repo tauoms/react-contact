@@ -1,6 +1,21 @@
-const FavoriteContact = () => {
+import { FC } from "react";
+import { ContactProps } from "../../types/ContactProps";
+import Contact from "./Contact";
+
+
+type Props = {
+    contacts: ContactProps[];
+};
+
+const FavoriteContact: FC<Props> = ({contacts}) => {
     return (
-        <button className='bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded'>Favorite Contact</button>  
+        <div>
+            {contacts.map((contact)=>{
+                return(
+                    <Contact contact={contact} />
+                )
+            })}
+        </div>
         );
 };
 
